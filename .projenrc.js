@@ -7,19 +7,17 @@ const project = new AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/ari.palo/cdk-demo-construct.git',
 
 
-
   license: 'MIT',
   stability: 'experimental',
   cdkVersion: '1.95.2',
   defaultReleaseBranch: 'main',
 
 
-
   //docgen: true,
   gitignore: ['.DS_Store'],
   packageManager: NodePackageManager.NPM,
 
-  cdkDependencies: ['@aws-cdk/core'],      /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
+  cdkDependencies: ['@aws-cdk/core'], /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
   // cdkTestDependencies: undefined,  /* AWS CDK modules required for testing. */
   // deps: [],                        /* Runtime dependencies of this module. */
   // description: undefined,          /* The description is just a string that helps people understand the purpose of the package. */
