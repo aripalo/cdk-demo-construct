@@ -1,5 +1,6 @@
 {
   "name": "cdk-demo-construct",
+  "description": "Just for demo/test purposes",
   "repository": {
     "type": "git",
     "url": "https://github.com/ari.palo/cdk-demo-construct.git"
@@ -56,14 +57,18 @@
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
+    "@aws-cdk/core": "^1.95.2",
     "constructs": "^3.2.27"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.95.2"
   },
   "bundledDependencies": [],
   "keywords": [
     "cdk"
   ],
   "main": "lib/index.js",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "version": "0.0.0",
   "jest": {
     "testMatch": [
@@ -105,7 +110,7 @@
     }
   },
   "types": "lib/index.d.ts",
-  "stability": "stable",
+  "stability": "experimental",
   "jsii": {
     "outdir": "dist",
     "targets": {},
